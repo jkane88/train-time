@@ -1,0 +1,38 @@
+.container-fluid {
+    max-width: 1200px;
+}
+
+.card {
+    border-radius: 10px;
+    background:rgba(255,255,255,.4);
+}
+
+.card-header {
+    font-weight: 600;
+}
+
+.delete-train-btn {
+    background: none;
+    color: #444;
+    transition: color .3s;
+}
+
+.delete-train-btn:hover {
+    color: red;
+    cursor: pointer;
+}
+body {
+    background-image: url('../images/trainbg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.jumbotron {
+    text-align: center;
+    font-size: 40px;
+    font-family: serif;
+    font-weight: 900;
+    
+    background:rgba(255,255,255,.4);
+   
+}
